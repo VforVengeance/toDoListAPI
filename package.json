@@ -1,0 +1,24 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VforVengeance/toDoListAPI.git"
+  },
+  "author": "VforVengeance <peppemarchese97@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VforVengeance/toDoListAPI/issues"
+  },
+  "homepage": "https://github.com/VforVengeance/toDoListAPI#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0",
+    "todolist_1": "^2.0.0"
+  }
+}
