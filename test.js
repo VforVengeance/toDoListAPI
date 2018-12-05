@@ -14,40 +14,4 @@ describe('Test read api', function(){
                 done(); 
             });
     });
-
-/*     it('Sto testando il count', function(done){
-        request(app)
-            .get('/users/count')
-            .set('Accept', 'application/json')
-            .expect(200)
-            .end(function(err, res) {
-                if (err) return done(err);
-                assert.equal(typeof res.body.count, 'number');
-                done(); 
-            });
-    })
-
-    it('Sto aggiungendo gli utenti', function(done){
-        request(app)
-            .post('/users?token=2')
-            .set('Accept', 'application/json')
-            .send({name: 'Carlo', surname: 'Leonardi'})
-            .expect(201)
-            .end(function(err, res) {
-                if (err) return done(err);
-                done(); 
-            });
-    })
-
-    it('Sto aggiungendo gli utenti', function(done){
-        request(app)
-            .post('/users')
-            .set('Accept', 'application/json')
-            .send({name: 'Carlo', surname: 'Leonardi'})
-            .expect(401)
-            .end(function(err, res) {
-                if (err) return done(err);
-                done(); 
-            });
-    }) */
 })
