@@ -1,7 +1,7 @@
 {
-  "name": "todolistapi",
-  "version": "1.0.0",
-  "description": "",
+  "name": "todolistapi_1",
+  "version": "0.0.0",
+  "description": "a simple use of package todolist_1",
   "main": "app.js",
   "scripts": {
     "test": "mocha"
@@ -20,5 +20,12 @@
     "mocha": "^5.2.0",
     "supertest": "^3.3.0",
     "todolist_1": "^2.0.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "to",
+    "do",
+    "list",
+    "api"
+  ]
 }
