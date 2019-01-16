@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/VforVengeance/toDoListAPI#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "mocha": "^5.2.0",
     "supertest": "^3.3.0",
     "todolist_1": "^2.0.0"
